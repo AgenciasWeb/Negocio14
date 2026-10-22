@@ -64,31 +64,9 @@ p {
     transform: scale(0.99);
 }
 
-/* --- ESTILOS DE BOTONES CON BORDES FIJOS Y VISIBLES --- */
+/* --- ESTILOS DE BOTONES CON SUS RESPECTIVOS COLORES --- */
 
-/* 1. Tarjeta de Fidelización (Dorado / Cobre Cálido) */
-.btn-fidelizacion { 
-    border: 1px solid #cba052;
-}
-.btn-fidelizacion:hover {
-    transform: translateY(-2px);
-    background-color: rgba(203, 160, 82, 0.15);
-    border-color: #e5b865;
-    color: #e5b865;
-}
-
-/* 2. Panel del Negocio (Gris Acero / Plata) */
-.btn-panel { 
-    border: 1px solid #8e9aaf;
-}
-.btn-panel:hover {
-    transform: translateY(-2px);
-    background-color: rgba(142, 154, 175, 0.15);
-    border-color: #b0bec5;
-    color: #ffffff;
-}
-
-/* 3. Google */
+/* 1. Google */
 .btn-google { 
     border: 1px solid #4285F4;
 }
@@ -98,7 +76,7 @@ p {
     color: #4285F4;
 }
 
-/* 4. WhatsApp */
+/* 2. WhatsApp */
 .btn-whatsapp { 
     border: 1px solid #25D366;
 }
@@ -108,7 +86,7 @@ p {
     color: #25D366;
 }
 
-/* 5. Instagram */
+/* 3. Instagram */
 .btn-instagram { 
     border: 1px solid #E1306C;
 }
@@ -116,6 +94,26 @@ p {
     transform: translateY(-2px);
     background-color: rgba(225, 48, 108, 0.15);
     color: #E1306C;
+}
+
+/* 4. Facebook */
+.btn-facebook { 
+    border: 1px solid #1877F2;
+}
+.btn-facebook:hover {
+    transform: translateY(-2px);
+    background-color: rgba(24, 119, 242, 0.15);
+    color: #1877F2;
+}
+
+/* 5. Mercado Pago */
+.btn-mercadopago { 
+    border: 1px solid #009EE3;
+}
+.btn-mercadopago:hover {
+    transform: translateY(-2px);
+    background-color: rgba(0, 158, 227, 0.15);
+    color: #009EE3;
 }
 
 /* Asegurar tamaño de íconos */
