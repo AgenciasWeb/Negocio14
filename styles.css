@@ -1,4 +1,49 @@
-/* Configuración base de botones */
+/* Configuración general: Fondo limpio y sofisticado */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #111111;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Tarjeta principal: Sólida, con borde sutil y sobria */
+.card {
+    background: #1a1a1a;
+    border: 1px solid #333333;
+    padding: 45px 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+}
+
+/* Título: Estilo editorial y exclusivo */
+h2 {
+    color: #f5f5f5;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Párrafo: Minimalista */
+p {
+    color: #a0a0a0;
+    font-size: 15px;
+    margin-bottom: 35px;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Botones: Estilo base */
 .btn {
     display: flex;
     align-items: center;
@@ -12,7 +57,6 @@
     font-weight: 500;
     font-size: 16px;
     transition: all 0.3s ease;
-    border: 1px solid transparent; /* Fallback */
     font-family: 'Inter', sans-serif;
 }
 
@@ -20,7 +64,9 @@
     transform: scale(0.99);
 }
 
-/* 1. Tarjeta de Fidelización (Borde Dorado/Cobre constante) */
+/* --- ESTILOS DE BOTONES CON BORDES FIJOS Y VISIBLES --- */
+
+/* 1. Tarjeta de Fidelización (Dorado / Cobre Cálido) */
 .btn-fidelizacion { 
     border: 1px solid #cba052;
 }
@@ -31,7 +77,7 @@
     color: #e5b865;
 }
 
-/* 2. Panel del Negocio (Borde Gris Acero / Plata constante) */
+/* 2. Panel del Negocio (Gris Acero / Plata) */
 .btn-panel { 
     border: 1px solid #8e9aaf;
 }
@@ -72,6 +118,7 @@
     color: #E1306C;
 }
 
+/* Asegurar tamaño de íconos */
 .btn i {
     font-size: 20px;
 }
